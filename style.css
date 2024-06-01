@@ -1,0 +1,33 @@
+body{
+    background-color: #272525;
+}
+
+.titulo{
+    font-family: arial;
+    color: rgb(202, 202, 202);
+}
+
+.voce{
+    font-family: arial;
+    text-align: center;
+    font-size: 20px;
+    color: antiquewhite;
+}
+
+.botao{
+    text-align: center;
+}
+
+.aluno, .bibliotecaria{
+    font-family: arial;
+        text-align: center;
+        background-color: #272525;
+        color: antiquewhite;
+        text-decoration: none;
+        top: 30px;
+        border: none;
+        border-radius: 5px;
+        margin-top: 3vh;
+        padding: 15px;
+        box-shadow: 7px 5px 10px rgba(0, 0, 0, 0.596), -5px -5px 10px rgba(146, 146, 146, 0.226);
+}

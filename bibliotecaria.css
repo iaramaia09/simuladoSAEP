@@ -1,0 +1,71 @@
+body{
+    background-color: #272525;
+}
+
+.login{
+    text-align: center;
+    background-color: rgba(27, 26, 26, 0.753);
+    width: 23vw;
+    height: 83vh;
+    margin: auto;
+    border-radius: 40px;
+    box-shadow: 15px -8px 10px rgba(109, 109, 109, 0.116), -15px 10px 15px rgba(8, 8, 8, 0.726);
+    position: relative;
+}
+
+p{
+    color: antiquewhite;
+    
+}
+
+button{
+    background-color: #272525;
+    color: antiquewhite;
+    position: relative;
+    top: 30px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 3vh;
+    width: 9vw;
+    height: 5vh;
+    box-shadow: 7px 5px 10px rgba(0, 0, 0, 0.596), -5px -5px 10px rgba(146, 146, 146, 0.226);
+}
+
+button:hover{
+    background-color: #1d1d1d;
+    cursor: pointer;
+}
+
+
+
+input{
+    color: rgb(255, 255, 255);
+    background-color: #272525;
+    position: relative;
+    top: 4vh;
+    outline: none;
+    width: 12vw;
+    height: 5vh;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 2px 8px black;
+    margin-top: 2vh;
+    box-shadow: inset 7px 3px 10px rgba(0, 0, 0, 0.582), inset -5px -3px 7px rgba(240, 240, 240, 0.123);
+}
+
+
+
+.titulo{
+    margin-top: 4vh; 
+    color: rgb(252, 246, 238);
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 20px 8px 0px rgb(0, 0, 0);
+    
+}
+
+h3{
+    position: relative;
+    top: 5vh;  
+    color: rgb(252, 242, 230);
+    font-family: Arial, Helvetica, sans-serif;
+  }
