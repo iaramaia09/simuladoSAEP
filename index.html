@@ -3,19 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SAEP</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="bibliotecaria.css">
 </head>
-
 <body>
-    <div class="titulo">
-                <h1 style="text-align: center;">  SEJA BEM VINDO </h1>
-            </div>
-        <p class="voce">Você é??</p>
-        <div class="botao">
-            <a class="aluno" href="/aluno.html" onclick="alunoLogin()">Aluno</a>
-            <a class="bibliotecaria" href="/bibliotecaria.html" onclick="bibliLogin()">Bibliotecária</a>
-        </div>
+    <div class="login">
+        <h3>REGISTRO</h3>
+        <input type="text" placeholder="Digite seu login" id="NovoLogin"><br>
+        <input type="password" placeholder="Digite sua senha" id="NovaSenha"><br>
+        <input type="password" placeholder="Repita sua senha" id="RepSenha"><br>
+        <button onclick="cadastrar()">cadastrar</button>
+        <h3>LOGIN</h3>
+        <input type="text" placeholder="Digite seu login" id="login"><br>
+        <input type="password" placeholder="Digite sua senha" id="password"><br>
+        <button onclick="login()">Logar</button>
     </div>
 </body>
 <script src="script.js"></script>
